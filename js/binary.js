@@ -68437,7 +68437,7 @@ texts_json['ZH_TW'] = {"QBE_INSURANCE_GROUP_LIMITED":"昆士蘭聯保保險有�
 
 function getAppId() {
   return localStorage.getItem('config.app_id') ? localStorage.getItem('config.app_id') :
-               /staging\.binary\.com/i.test(window.location.hostname) ? '1098' : '1';
+               /staging\.binary\.com/i.test(window.location.hostname) ? '1006' : '1';
 }
 
 function getSocketURL() {
